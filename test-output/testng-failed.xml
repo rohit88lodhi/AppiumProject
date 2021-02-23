@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testProject.KA007">
+      <class name="testProject.DW001">
         <methods>
           <include name="beforeClass"/>
-          <include name="PraxisCoreWritingtest"/>
+          <include name="registerandlogout"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- testProject.KA007 -->
+      </class> <!-- testProject.DW001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
