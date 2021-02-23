@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -42,5 +44,9 @@ public class KA007 {
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),capability);  
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
 	}
-	
+	@AfterClass
+	  public void afterClass() {
+	driver.pressKey(new KeyEvent(AndroidKey.HOME));
+	}
 }
+	
