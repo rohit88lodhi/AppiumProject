@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-23T10:55:05 IST" name="Default suite" finished-at="2021-02-23T10:55:22 IST" duration-ms="17521">
+  <suite started-at="2021-02-24T11:19:31 IST" name="Default suite" finished-at="2021-02-24T11:20:11 IST" duration-ms="39899">
     <groups>
     </groups>
-    <test started-at="2021-02-23T10:55:05 IST" name="Default test" finished-at="2021-02-23T10:55:22 IST" duration-ms="17521">
-      <class name="testProject.KA007">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testProject.KA007@67080771]" started-at="2021-02-23T10:55:05 IST" name="beforeClass" finished-at="2021-02-23T10:55:15 IST" duration-ms="10140" status="PASS">
+    <test started-at="2021-02-24T11:19:31 IST" name="Default test" finished-at="2021-02-24T11:20:11 IST" duration-ms="39899">
+      <class name="testProject2.KA007Set2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testProject2.KA007Set2@4e096385]" started-at="2021-02-24T11:19:31 IST" name="beforeClass" finished-at="2021-02-24T11:19:42 IST" duration-ms="10742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="PraxisCoreWritingtest()[pri:0, instance:testProject.KA007@67080771]" started-at="2021-02-23T10:55:15 IST" name="PraxisCoreWritingtest" finished-at="2021-02-23T10:55:22 IST" duration-ms="7268" status="PASS">
+        <test-method signature="f()[pri:0, instance:testProject2.KA007Set2@4e096385]" started-at="2021-02-24T11:19:42 IST" name="f" finished-at="2021-02-24T11:20:11 IST" duration-ms="29117" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PraxisCoreWritingtest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testProject.KA007@67080771]" started-at="2021-02-23T10:55:22 IST" name="afterClass" finished-at="2021-02-23T10:55:22 IST" duration-ms="68" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testProject2.KA007Set2@4e096385]" started-at="2021-02-24T11:20:11 IST" name="afterClass" finished-at="2021-02-24T11:20:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testProject.KA007 -->
+      </class> <!-- testProject2.KA007Set2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testProject.MA001">
+      <class name="testProject2.KA007Set2">
         <methods>
-          <include name="beforeClass"/>
-          <include name="magento"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- testProject.MA001 -->
+      </class> <!-- testProject2.KA007Set2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
